@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='https://twitter.com/16189221205_?t=ej9eYZUDMWzG_TWAHHmFQw&s=09'>This Person</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n</b>",
+            text = f"<b>PRIVATE BOT\n\nDapatkan Tautan Akses Untuk Menggunakan Bot\n-\nGet Access Link To Use Bot</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
